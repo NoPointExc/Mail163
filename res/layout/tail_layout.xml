@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    
+    
+
+    
+    <TextView
+        android:id="@+id/textview_more"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="#008000"
+        android:text="更多邮件" />
+           <ProgressBar
+        android:id="@+id/progessbar_more"
+        style="@android:style/Widget.ProgressBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+    
+
+</LinearLayout>
